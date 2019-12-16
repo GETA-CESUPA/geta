@@ -5,28 +5,28 @@
 
     <nav class="menu">
       <ul>
-
-     
-     
         <li>
-          <a href="#">Objetivos</a>
+          <img src="~/assets/getalogot.png" alt />
         </li>
-           <li>
+
+        <li>
+          <a href="#">Sobre</a>
+        </li>
+        <li>
           <a href="#">Projetos</a>
         </li>
-          <li>
+        <li>
           <a href="#">Equipe</a>
         </li>
-           <li>
+        <li>
           <a href="#">Prêmios</a>
         </li>
-           <li>
+        <li>
           <a href="#">Parcerias</a>
         </li>
-              <li>
+        <li>
           <a href="#">Contato</a>
         </li>
-     
       </ul>
     </nav>
   </div>
@@ -48,15 +48,18 @@ export default {};
 .menu ul {
   margin: 0;
   padding-top: 1em;
-      padding-left: 9em;
+  padding-left: 9em;
   list-style: none;
   position: relative;
 }
 
+.menu ul li img {
+  width: 80%;
+}
+
 .menu ul li {
-      width: 110px;
-    font-size: 18px;
-  background: tomato;
+  width: 110px;
+  font-size: 16px;
   float: left;
 }
 
@@ -93,7 +96,7 @@ export default {};
 
 label[for="bt_menu"] {
   padding: 5px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   color: #fff;
   font-family: "Arial";
   text-align: center;
@@ -109,6 +112,11 @@ label[for="bt_menu"] {
 }
 
 @media (max-width: 800px) {
+  .menu ul li img {
+    width: 80%;
+    display: none;
+  }
+
   .navigacao {
     position: absolute;
     width: 100%;

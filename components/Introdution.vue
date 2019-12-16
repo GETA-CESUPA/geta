@@ -1,10 +1,10 @@
 <template>
   <section >
     <Hearder/>
-    <div class="container">
+    <div class="container-introdution">
     <div class="introducao">
       <h1>GETA - Grupo de Estudo em Tecnologia do CESUPA</h1>
-      <p>Somos um grupo focado na produção em estudos cientificos e tecnologia para pessoas com algum tipo de necessidade especial</p>
+      <p>Somos um grupo focado na produção em estudos científicos e tecnologia para pessoas com algum tipo de necessidade especial.</p>
       <button>Conheça mais</button>
     </div>
     <div class="imagem-pcc">
@@ -27,7 +27,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.container-introdution {
   min-height: 80vh;
   display: flex;
   justify-content: center;
@@ -40,6 +40,7 @@ export default {
 .introducao {
   flex: 1;
   padding: 0em 0em 0em 10em;
+  animation: showIntro 1s ease-in-out;
 }
 
 .introducao h1 {
@@ -51,7 +52,7 @@ export default {
 }
 
 .introducao p {
-  font-size: 16pt;
+  font-size: 14pt;
   text-align: left;
   color: white;
 }
@@ -59,11 +60,11 @@ export default {
 .introducao button {
   margin-top: 10px;
   text-align: left;
-  background: #66d1ff;
+  background: #26A69A;
   outline: none;
   border: none;
   padding: 12px 40px;
-  font-size: 18px;
+  font-size: 17px;
   color: white;
   border-radius: 5px;
   float: left;
@@ -72,7 +73,7 @@ export default {
 }
 
 .introducao button:hover {
-  background: #26a69a;
+  background: #125a53;
 }
 
 .imagem-pcc {
@@ -82,6 +83,30 @@ export default {
 
 .imagem-pcc img{
   width: 600px;
+  opacity: 0;
+  animation: showImg 1s linear 0.5s forwards;
+}
+
+@keyframes showImg {
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes showIntro {
+  from{
+    opacity: 0;
+    margin-top: 100px
+  }
+
+  to{
+    opacity: 1;
+    margin-top: 0px
+  }
 }
 
 @media (max-width: 800px) {
