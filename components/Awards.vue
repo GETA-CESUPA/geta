@@ -92,6 +92,13 @@ text-align: center;
       margin-bottom: 1em;
 }
 
+.container-premios div{
+    margin: 1em 0em
+}
+
+.container-premios div img{
+    width: 220px;
+}
 
 }
 </style>

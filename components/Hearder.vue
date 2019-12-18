@@ -3,7 +3,7 @@
     <input type="checkbox" id="bt_menu" />
     <label for="bt_menu">&#9776;</label>
 
-    <nav class="menu">
+    <nav class="menu" v-bind:class="{fixo:animation}">
       <ul>
         <li>
           <img src="~/assets/getalogot.png" alt />
@@ -33,7 +33,30 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      animation: false,
+    };
+  },
+
+  methods: {
+    handleScroll() {
+    
+
+      if (scrollY > 10) {
+        this.animation = true;
+      } else {
+        this.animation = false;
+
+      } 
+    }
+  },
+
+  beforeMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+};
 </script>
 
 <style scoped>
@@ -43,6 +66,12 @@ export default {};
   height: 70px;
   background: #598cff;
   font-family: "Arial";
+  border-bottom: 1px solid rgba(255, 255, 255, 0.288);
+}
+
+.fixo{
+  position: fixed;
+  z-index: 2;
 }
 
 .menu ul {
@@ -96,7 +125,7 @@ export default {};
 
 label[for="bt_menu"] {
   padding: 5px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(1, 39, 255, 0.2);
   color: #fff;
   font-family: "Arial";
   text-align: center;
@@ -144,7 +173,7 @@ label[for="bt_menu"] {
     float: none;
   }
   .menu a {
-    background-color: #000;
+    background-color: rgb(72, 9, 245);
   }
 
   .menu ul ul {

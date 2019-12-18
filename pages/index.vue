@@ -4,6 +4,7 @@
     <Info/>
     <Projects/>
     <Awards/>
+    <Team/>
     <Footer/>
   </div>
 </template>
