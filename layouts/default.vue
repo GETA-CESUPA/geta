@@ -9,7 +9,9 @@
 PrimaryColor: "#26A69A"
 SecondColor: "#598CFF" */
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
+html {
+  scroll-behavior: smooth;
+}
 body{
   margin: 0;
   padding: 0;

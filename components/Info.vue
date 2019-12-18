@@ -1,5 +1,5 @@
 <template>
-  <section id="info">
+  <section >
     <div class="container-image">
       <img src="~/assets/fotogeta.jpg" v-bind:class="{introImage:animation}" />
     </div>

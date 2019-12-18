@@ -1,10 +1,10 @@
 <template>
   <div>
-    <Introdution />
-    <Info/>
-    <Projects/>
+    <Introdution  />
+    <Info id="info"/>
+    <Projects id="projects"/>
     <Awards/>
-    <Team/>
+    <Team />
     <Footer/>
   </div>
 </template>

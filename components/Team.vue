@@ -104,11 +104,16 @@ h2 {
 
 @media (max-width: 800px) {
   #team {
-    padding: 0em;
+    padding: 1em 0em;
   }
 
   h1 {
     font-size: 24pt;
+    text-align: center;
+  }
+
+  h2 {
+    width:auto;
     text-align: center;
   }
 

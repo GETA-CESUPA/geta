@@ -10,20 +10,22 @@
         </li>
 
         <li>
-          <a href="#">Sobre</a>
+          <a href="#info">Sobre</a>
         </li>
         <li>
-          <a href="#">Projetos</a>
+          <a href="#projects">Projetos</a>
+        </li>
+
+        <li>
+          <a href="#container-awards">Prêmios</a>
         </li>
         <li>
-          <a href="#">Equipe</a>
+          <a href="#team">Equipe</a>
         </li>
         <li>
-          <a href="#">Prêmios</a>
+          <a href="#parcerias">Parcerias</a>
         </li>
-        <li>
-          <a href="#">Parcerias</a>
-        </li>
+
         <li>
           <a href="#">Contato</a>
         </li>
@@ -36,20 +38,17 @@
 export default {
   data() {
     return {
-      animation: false,
+      animation: false
     };
   },
 
   methods: {
     handleScroll() {
-    
-
       if (scrollY > 10) {
         this.animation = true;
       } else {
         this.animation = false;
-
-      } 
+      }
     }
   },
 
@@ -69,7 +68,7 @@ export default {
   border-bottom: 1px solid rgba(255, 255, 255, 0.288);
 }
 
-.fixo{
+.fixo {
   position: fixed;
   z-index: 2;
 }
