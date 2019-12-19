@@ -17,8 +17,8 @@
         </div>
         <div>
             <h1>Contato</h1>
-            <p>Email: geta@gmail.com</p>
-            <p>Celular: (91) 99999-9999</p>
+            <p>Email: alessandra.natasha@gmail.com</p>
+            <p>Celular: (91) 987046021</p>
             <p>Endereço: Av. Alcindo Cacela, 1523 - Umarizal, Belém - PA, 66040-020</p>
         </div>
            <div>
