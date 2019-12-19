@@ -54,7 +54,7 @@ export default {
 
 <style scoped>
 #info {
-  height: 90vh;
+  padding: 0em 2em;
   background: linear-gradient(90deg, rgb(231, 230, 230) 40%, #fff 20%);
   display: flex;
   justify-content: center;
