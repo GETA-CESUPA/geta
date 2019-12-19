@@ -19,11 +19,11 @@
             <h1>Contato</h1>
             <p>Email: geta@gmail.com</p>
             <p>Celular: (91) 99999-9999</p>
-            <p>Endereço: Av. Alcindo Cacela, 1000</p>
+            <p>Endereço: Av. Alcindo Cacela, 1523 - Umarizal, Belém - PA, 66040-020</p>
         </div>
            <div>
             <h1>Rede Socias</h1>
-            <img src="~/assets/facebook-logo-white.svg" alt="" srcset="">
+            <a href="https://www.facebook.com/getacesupa/" target="_blank"><img src="~/assets/facebook-logo-white.svg" alt="" srcset=""></a>
         </div>
         </div>
         <h3>Copyright ©2019 Todos os direitos reservados para GETA</h3>

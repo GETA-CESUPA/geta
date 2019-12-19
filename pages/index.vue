@@ -6,7 +6,7 @@
     <Awards/>
     <Team />
     <Partnerships id="partnerships" />
-    <Footer/>
+    <Footer id="footer"/>
   </div>
 </template>
 

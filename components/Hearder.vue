@@ -27,7 +27,7 @@
         </li>
 
         <li>
-          <a href="#">Contato</a>
+          <a href="#footer">Contato</a>
         </li>
       </ul>
     </nav>

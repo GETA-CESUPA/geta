@@ -78,7 +78,12 @@ h2 {
     padding: 1em 0em;
   }
 
+  h1{
+      font-size: 24pt;
+  }
+
   h2 {
+      font-size: 12pt;
     margin: 1em 2em;
   }
 
