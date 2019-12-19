@@ -23,7 +23,7 @@
           <a href="#team">Equipe</a>
         </li>
         <li>
-          <a href="#parcerias">Parcerias</a>
+          <a href="#partnerships">Parcerias</a>
         </li>
 
         <li>
@@ -151,7 +151,7 @@ label[for="bt_menu"] {
   }
 
   label[for="bt_menu"] {
-    display: block;
+    /* display: block; */
   }
 
   #bt_menu:checked ~ .menu {
@@ -167,10 +167,12 @@ label[for="bt_menu"] {
   .menu ul {
     padding: 0;
   }
+  
   .menu ul li {
     width: 100%;
     float: none;
   }
+
   .menu a {
     background-color: rgb(72, 9, 245);
   }

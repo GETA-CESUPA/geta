@@ -76,7 +76,7 @@ div p {
 }
 
 img{
-    width: 10%;
+    width: 7%;
 }
 
 #sobre{

@@ -1,5 +1,5 @@
 <template>
-  <section id="projects">
+  <section >
     <h4>Nossos Projetos</h4>
     <p>O grupo foca em várias em iniciativas voltadas para Tecnologia Assistiva e Social</p>
     <div class="container-projets">
@@ -21,54 +21,7 @@ export default {
   data() {
     return {
       animation: false,
-      type: "app",
-      projets: [
-        {
-          integrantes: "Luan Wesley, Amaury Magalhães e Bruno De Masi",
-          Solicitante:
-            "Fernanda Aguiar (Aluna PIBICT CESUPA - Curso de Medicina)",
-          Descrição:
-            "Projeto que gamifica o estudo de anatomia para os cursos de ensino superior na área de saúde. Desenvolvimento de um aplicativo mobile/web.",
-          responsável: "Alessandra Natasha",
-          tipo: "app"
-        },
-        {
-          integrantes: "Luan Wesley, Amaury Magalhães e Bruno De Masi",
-          Solicitante:
-            "Fernanda Aguiar (Aluna PIBICT CESUPA - Curso de Medicina)",
-          Descrição:
-            "Projeto que gamifica o estudo de anatomia para os cursos de ensino superior na área de saúde. Desenvolvimento de um aplicativo mobile/web.",
-          responsável: "Alessandra Natasha",
-          tipo: "app"
-        },
-        {
-          integrantes: "Luan Wesley, Amaury Magalhães e Bruno De Masi",
-          Solicitante:
-            "Fernanda Aguiar (Aluna PIBICT CESUPA - Curso de Medicina)",
-          Descrição:
-            "Projeto que gamifica o estudo de anatomia para os cursos de ensino superior na área de saúde. Desenvolvimento de um aplicativo mobile/web.",
-          responsável: "Alessandra Natasha",
-          tipo: "app"
-        },
-        {
-          integrantes: "Luan Wesley, Amaury Magalhães e Bruno De Masi",
-          Solicitante:
-            "Fernanda Aguiar (Aluna PIBICT CESUPA - Curso de Medicina)",
-          Descrição:
-            "Projeto que gamifica o estudo de anatomia para os cursos de ensino superior na área de saúde. Desenvolvimento de um aplicativo mobile/web.",
-          responsável: "Alessandra Natasha",
-          tipo: "app"
-        },
-        {
-          integrantes: "Luan Wesley, Amaury Magalhães e Bruno De Masiii",
-          Solicitante:
-            "Fernanda Aguiar (Aluna PIBICT CESUPA - Curso de Medicina)",
-          Descrição:
-            "Projeto que gamifica o estudo de anatomia para os cursos de ensino superior na área de saúde. Desenvolvimento de um aplicativo mobile/web.",
-          responsável: "Alessandra Natasha",
-          tipo: "app"
-        }
-      ]
+    
     };
   },
 
@@ -86,7 +39,7 @@ export default {
 
   methods: {
     handleScroll() {
-      if (scrollY > 800) {
+      if (scrollY > 700) {
         this.animation = true;
         console.log("projetos", this.animation);
       }
@@ -109,7 +62,7 @@ export default {
 #projects h4 {
   font-weight: bolder;
   font-size: 32pt;
-  letter-spacing: 1px;
+  letter-spacing: -1px;
   margin: 10px 2em 10px 2em;
 }
 
@@ -154,12 +107,10 @@ export default {
 
 @keyframes showImage {
   from {
-    margin-top: 10px;
     opacity: 0;
   }
 
   to {
-    margin-top: 0;
     opacity: 1;
   }
 }

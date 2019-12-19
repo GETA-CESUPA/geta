@@ -1,7 +1,7 @@
 <template>
 <section id="container-awards">
 <h1>Prêmios</h1>
-<h3>Durante nossa jornada recebemos alguns prêmios sobre a causa</h3>
+<h3>Durante nossa jornada, recebemos alguns prêmios sobre a causa</h3>
 <div class="container-premios">
     <div>
         <img src="~/assets/3lugarXComputaçãoAmostra.jpg" alt="" srcset="">

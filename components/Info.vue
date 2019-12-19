@@ -6,7 +6,7 @@
     <div class="container-info" v-bind:class="{intro:animation}">
       <h1>Sobre nós</h1>
       <p>
-        Proporcionamos independência à pessoas com deficiência através do desenvolvimento de protótipos e produtos de tecnologia asssistiva
+        Proporcionamos independência às pessoas com deficiência através do desenvolvimento de protótipos e produtos de tecnologia assistiva
         <br />
         <br />Economicamente viáveis e com tecnologia de integração nacional por meio de parcerias com núcleos de pesquisa nacionais e internacionais em tecnologia assistiva, terapia ocupacional, fisioterapia, psicologia, engenharia e tecnologia da informação.
       </p>
