@@ -78,9 +78,15 @@
         <p>Matheus Henrique</p>
         <p>Ciência da Computação</p>
       </div>
+    
          <div class="membro">
         <img src="~/assets/raphael.jpg" alt />
         <p>Raphael Rocha</p>
+        <p>Ciência da Computação</p>
+      </div>
+        <div class="membro">
+        <img src="~/assets/renancarneiro.png" alt />
+        <p>Renan Carneiro</p>
         <p>Ciência da Computação</p>
       </div>
         <div class="membro">
