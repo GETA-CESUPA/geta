@@ -38,5 +38,11 @@ export default {
 .container-hearder{
     padding: 1em 15em;
 }
+
+@media (max-width: 800px) {
+    .container-hearder{
+    padding: 1em 2em;
+}
+}
 </style>
 
