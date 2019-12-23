@@ -351,6 +351,10 @@ export default {
   cursor: pointer;
 }
 
+.projet-item div{
+  flex: 1;
+}
+
 .projet-item:hover {
   background: #26a69a;
 }
