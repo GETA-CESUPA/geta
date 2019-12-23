@@ -1,18 +1,27 @@
 <template>
-  <section >
+  <section>
     <h4>Nossos Projetos</h4>
     <p>O grupo foca em várias em iniciativas voltadas para Tecnologia Assistiva e Social</p>
     <div class="container-projets">
-      <div v-bind:class="{showImage1:animation}">
-        <h2>Aplicativos</h2>
-      </div>
+      <nuxt-link to="projets">
+        <div v-bind:class="{showImage1:animation}">
+          <h2>Sistemas</h2>
+        </div>
+      </nuxt-link>
+      <nuxt-link to="projets">
       <div v-bind:class="{showImage2:animation}">
-        <h2>Sistemas Web</h2>
+        <h2>Embarcados</h2>
       </div>
+      </nuxt-link>
+      <nuxt-link to="projets">
       <div v-bind:class="{showImage3:animation}">
         <h2>Artigos</h2>
       </div>
+      </nuxt-link>
     </div>
+    <nuxt-link to="projets">
+    <p>Ver todos os projetos</p>
+    </nuxt-link>
   </section>
 </template>
 
@@ -20,8 +29,7 @@
 export default {
   data() {
     return {
-      animation: false,
-    
+      animation: false
     };
   },
 
@@ -80,7 +88,6 @@ export default {
 }
 
 .container-projets div {
-  background-image: url("../assets/app.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -140,16 +147,20 @@ export default {
   display: none;
 }
 
-.container-projets div:nth-child(1) {
+.container-projets a:nth-child(1) div {
   background-image: url("../assets/app.jpg");
 }
 
-.container-projets div:nth-child(2) {
-  background-image: url("../assets/web.jpg");
+.container-projets a:nth-child(2) div {
+  background-image: url("../assets/embarcado.jpg");
 }
 
-.container-projets div:nth-child(3) {
+.container-projets a:nth-child(3) div {
   background-image: url("../assets/artigo.jpg");
+}
+
+a {
+  text-decoration: none;
 }
 
 @media (max-width: 800px) {
@@ -157,18 +168,22 @@ export default {
     padding: 0;
   }
 
-  
-#projects h4 {
-  font-size: 24pt;
-}
+  #projects h4 {
+    font-size: 24pt;
+  }
 
-#projects p {
+  #projects p {
     font-size: 12pt;
-    padding: 1em 2em
-}
+    padding: 1em 2em;
+  }
 
-  .container-projets div{
+  .container-projets div {
     width: 100%;
+  }
+
+  a {
+    width: 100%;
+    text-decoration: none;
   }
 }
 </style> 

@@ -6,7 +6,7 @@
     <nav class="menu" v-bind:class="{fixo:animation}">
       <ul>
         <li>
-          <img src="~/assets/getalogot.png" alt />
+          <nuxt-link href="" to="/" id="home">         <img src="~/assets/getalogot.png" alt /></nuxt-link>
         </li>
 
         <li>
@@ -44,7 +44,7 @@ export default {
 
   methods: {
     handleScroll() {
-      if (scrollY > 10) {
+      if (scrollY > 5) {
         this.animation = true;
       } else {
         this.animation = false;
@@ -70,7 +70,12 @@ export default {
 
 .fixo {
   position: fixed;
-  z-index: 2;
+  z-index: 3;
+}
+
+#home{
+  background: none;
+    padding: 0;
 }
 
 .menu ul {

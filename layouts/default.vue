@@ -4,6 +4,13 @@
   </div>
 </template>
 
+<script>
+
+export default {
+  
+}
+</script>
+
 <style>
 /* 
 PrimaryColor: "#26A69A"
@@ -38,6 +45,13 @@ body{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #242424; 
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
 }
 </style>
 

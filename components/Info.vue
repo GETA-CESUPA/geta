@@ -10,7 +10,9 @@
         <br />
         <br />Economicamente viáveis e com tecnologia de integração nacional por meio de parcerias com núcleos de pesquisa nacionais e internacionais em tecnologia assistiva, terapia ocupacional, fisioterapia, psicologia, engenharia e tecnologia da informação.
       </p>
+      <nuxt-link to="about"> 
       <button>Saiba mais</button>
+      </nuxt-link>
       <br />
       <div class="container-icon">
         <div>

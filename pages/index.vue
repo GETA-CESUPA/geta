@@ -22,6 +22,7 @@ import Partnerships from '~/components/Partnerships.vue';
 import Footer from '~/components/Footer.vue';
 
 export default {
+  
   components: {
     Introdution,
     Info,
