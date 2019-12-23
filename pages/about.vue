@@ -3,6 +3,7 @@
         <Hearder/>
         <div class="container-hearder">
 <h1>Sobre</h1>
+<hr>
 <h2>Missão</h2>
 <p>O Grupo de Estudos em Tecnologia Assistiva (GETA) exerce atividades de pesquisa e desenvolvimento no Centro Universitário do Estado do Pará (CESUPA) para pessoas com deficiência (paralisia cerebral, esclerose lateral amiotrófica, amiotrofia espinhal muscular infantil, ataxia, transtorno do espectro autista, deficiência visual, deficiência auditiva), deficiências físicas e/ou intelectuais. O GETA também organiza eventos e cursos de eletrônica e desenvolvimento de software para alunos e profissionais das áreas de Ciência e Engenharia da Computação, Sistemas de Informação e Engenharia Elétrica.</p>
 <br>
@@ -16,16 +17,19 @@
 
 </p>
         </div>
+        <Footer/>
     </section>
 </template>
 
 <script>
 import Hearder from "~/components/Hearder.vue";
+import Footer from "~/components/Footer.vue";
 
 
 export default {
  components: {
     Hearder,
+    Footer
   }
 }
 </script>

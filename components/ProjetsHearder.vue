@@ -20,13 +20,12 @@
 
       <div class="container-projets">
         <div class="projet-item" v-for="p in projetosCache" :key="p">
-          <img src="~/assets/getalogotquadrada.png" alt srcset />
+          <img :src="p.imagem" />
           <div>
             <h1>{{ p.nome }}</h1>
             <h2>{{ p.descricao }}</h2>
             <h2>Desenvolvedores: {{ p.integrantes }}</h2>
             <h2>Solicitante: {{ p.solicitante }}</h2>
-            <p>Ver mais</p>
           </div>
         </div>
       </div>
@@ -48,7 +47,7 @@ export default {
       tipo: "Todos",
       projetos: [
         {
-          imagem: "~/assets/getalogot.png",
+          imagem: require("~/assets/getalogot.png"),
           nome: "Anatogame",
           integrantes: "Luan Wesley, Amaury Magalhães e Bruno De Masi",
           solicitante:
@@ -130,6 +129,7 @@ export default {
           tipo: "Sistemas"
         },
         {
+          imagem: require("~/assets/qd.jpg"),
           nome: "Quarto dimensão",
           integrantes: "Matheus Henrique dos Santos",
           solicitante: "Profa Dra Ana Irene (NEDETA/UEPa)",
@@ -139,6 +139,7 @@ export default {
           tipo: "Embarcados"
         },
         {
+          imagem: require("~/assets/bl.jpg"),
           nome: "Brincando com a leitura",
           integrantes: "Matheus Henrique dos Santos.",
           solicitante:
@@ -149,6 +150,7 @@ export default {
           tipo: "Sistemas"
         },
         {
+          imagem: require("~/assets/braille.jpg"),
           nome: "Brincando com Braille",
           integrantes: "Luís Fernando",
           solicitante: "Profa Alessandra Natasha",
@@ -158,6 +160,7 @@ export default {
           tipo: "Sistemas"
         },
         {
+          imagem: require("~/assets/aprendendoOuvir.jpg"),
           nome: "Aprendendo a ouvir",
           integrantes: "Alder Furtado",
           solicitante: "Patrícia Madeira (Núcleo Aprende/UFPa)",
@@ -176,6 +179,7 @@ export default {
           tipo: "Sistemas"
         },
         {
+          imagem: require("~/assets/vida+.png"),
           nome: "Vida+",
           integrantes: "Luan Wesley Siqueira Pereira",
           solicitante:
@@ -194,6 +198,18 @@ export default {
             "aplicativo capaz de ensinar braile através de uma metodologia gamificada e inovadora",
           professor: "Alessandra Natasha",
           tipo: "Sistemas"
+        },
+        {
+          imagem: require("~/assets/peludinhos.jpg"),
+          
+          nome: "Peludinhos da UFPA",
+          integrantes: "Alder Furtado, Victor Telles",
+          solicitante: "Profa. Dra. Elizabeth  Pires (Peludinhos da UFPa)",
+          descricao:
+            "Trata-se de uma aplicação desenvolvida para auxiliar o procedimento de adoção de cães e gatos resgatados pela organização Peludinhos da UFPA. Neste website, é possível visualizar os pets resgatados e doar qualquer quantia para contribuir com as ações do projeto ou adotar os próprios pets",
+          professor: "Alessandra Natasha",
+          tipo: "Sistemas"
+
         }
       ],
 
@@ -295,7 +311,7 @@ export default {
   flex-direction: row;
   margin-top: 2em;
   flex-wrap: wrap;
-      justify-content: center;
+  justify-content: center;
 }
 
 .projet-item {
@@ -309,8 +325,8 @@ export default {
 }
 
 .projet-item img {
-  width: 60px;
-  height: 60px;
+  width: 60px !important;
+  height: 60px !important;
   margin-right: 10px;
 }
 
