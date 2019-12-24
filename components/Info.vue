@@ -6,9 +6,9 @@
     <div class="container-info" v-bind:class="{intro:animation}">
       <h1>Sobre nós</h1>
       <p>
-        Proporcionamos independência às pessoas com deficiência através do desenvolvimento de protótipos e produtos de tecnologia assistiva
+        Proporcionamos independência às pessoas com deficiência através do desenvolvimento de protótipos e produtos de tecnologia assistiva.
         <br />
-        <br />Economicamente viáveis e com tecnologia de integração nacional por meio de parcerias com núcleos de pesquisa nacionais e internacionais em tecnologia assistiva, terapia ocupacional, fisioterapia, psicologia, engenharia e tecnologia da informação.
+        <br />Trabalhando em soluções economicamente viáveis e com tecnologia de integração nacional, o GETA está sempre aberto parcerias com núcleos de pesquisa nacionais e internacionais e empresas interessadas em pesquisa e desenvolvimento de soluções em Tecnologia Assistiva, envolvendo qualquer área do conhecimento: Terapia Ocupacional, Fisioterapia, Psicologia, Medicina, Engenharia, Tecnologia da Informação.
       </p>
       <nuxt-link to="about"> 
       <button>Saiba mais</button>
