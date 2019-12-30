@@ -1,7 +1,7 @@
 <template>
   <section>
     <h4>Nossos Projetos</h4>
-    <p>O grupo foca em várias em iniciativas voltadas para Tecnologia Assistiva e Social</p>
+    <p>O grupo foca em várias iniciativas voltadas para Tecnologia Assistiva e Social</p>
     <div class="container-projets">
       <nuxt-link to="projets">
         <div v-bind:class="{showImage1:animation}">
