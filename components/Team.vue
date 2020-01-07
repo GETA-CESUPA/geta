@@ -167,6 +167,7 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around
 }
 
 .membro {
@@ -179,8 +180,8 @@ h2 {
 
 .membro::before {
   content: "";
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   background: rgba(0, 0, 0, 0);
   position: absolute;
   border-radius: 100%;
@@ -196,7 +197,7 @@ h2 {
 }
 
 .membro img {
-  width: 180px;
+  width: 200px;
   border-radius: 100%;
   margin-bottom: 10px;
 }
