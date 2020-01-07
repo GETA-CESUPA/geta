@@ -47,7 +47,7 @@ export default {
       tipo: "Todos",
       projetos: [
         {
-          imagem: require("~/assets/getalogot.png"),
+          imagem: require("~/assets/favicon.png"),
           nome: "Anatogame",
           integrantes: "Luan Wesley, Amaury Magalhães e Bruno De Masi",
           solicitante:
@@ -58,7 +58,7 @@ export default {
           tipo: "Sistemas"
         },
         {
-          imagem: require("~/assets/getalogot.png"),
+          imagem: require("~/assets/favicon.png"),
           nome: "Ambiente Virtual de Aprendizagem",
           integrantes:
             "Amaury Magalhães, Luiz Ricardo, Otávio Araújo, Oscar Borges, Elielson Barbosa",
@@ -70,7 +70,7 @@ export default {
         },
 
         {
-          imagem: require("~/assets/getalogot.png"),
+          imagem: require("~/assets/favicon.png"),
           nome: "DTM - Disfunção Temporomandibular",
           integrantes: "Matheus Botelho, Renan Figueiredo",
           solicitante: "Katiane (Clínica de Fisioterapia do CESUPA)",
@@ -80,7 +80,7 @@ export default {
           tipo: "Embarcados"
         },
         {
-          imagem: require("~/assets/getalogot.png"),
+          imagem: require("~/assets/favicon.png"),
           nome: "Tracking de Marcha",
           integrantes:
             "Arthur Rocha, Eduardo Costa, Oscar Borges, David Cabral.",
@@ -91,7 +91,7 @@ export default {
           tipo: "Sistemas"
         },
         {
-          imagem: require("~/assets/getalogot.png"),
+          imagem: require("~/assets/favicon.png"),
           nome: "Colete de Vibração",
           integrantes: "Paulo Amador, Larissa Negrão, Lucas Salame",
           solicitante: "Larissa Negrão (Clínica de Fisioterapia do CESUPA)",
@@ -101,7 +101,7 @@ export default {
           tipo: "Embarcados"
         },
         {
-          imagem: require("~/assets/getalogot.png"),
+          imagem: require("~/assets/favicon.png"),
           nome: "Alzheimer VR",
           integrantes:
             "Larissa Negrão, Luiz Ricardo, Otávio Araújo, Oscar Borges, Pedro Lima, Luan Rodrigues.",
@@ -113,7 +113,7 @@ export default {
         },
 
         {
-          imagem: require("~/assets/getalogot.png"),
+          imagem: require("~/assets/favicon.png"),
           nome: "ECG",
           integrantes: "Matthews Gonçalves",
           solicitante: "Roberto Júnior (UFPa)",
@@ -123,7 +123,7 @@ export default {
           tipo: "Embarcados"
         },
         {
-          imagem: require("~/assets/getalogot.png"),
+          imagem: require("~/assets/favicon.png"),
           nome: "Web-App de Apoio Oncológico",
           integrantes:
             "Bruno De Masi, Danilo Castro, Luiz Ricardo, Lucas Freitas, Victor Telles, Gabriel Cortez",
@@ -138,7 +138,7 @@ export default {
           imagem: require("~/assets/qd.jpg"),
           nome: "Quarto dimensão",
           integrantes: "Matheus Henrique dos Santos",
-          solicitante: "Profa Dra Ana Irene (NEDETA/UEPa)",
+          solicitante: "Profa Alessandra Natasha",
           descricao:
             "Baseado em adaptações no ambiente residencial, agrega a mobilidade e promove a independência de pessoas com deficiência ou mobilidade reduzida, através da eletroencefalografia (EEG). O produto pode ser utilizado como um recurso de hardware adaptável a necessidade do usuário, a fim de promover a interface de controle residencial.",
           professor: "Alessandra Natasha",
@@ -149,7 +149,7 @@ export default {
           nome: "Brincando com a leitura",
           integrantes: "Matheus Henrique dos Santos.",
           solicitante:
-            "Profa Dra Ana Irene (NEDETA/UEPa)Profa Dra Ana Irene (NEDETA/UEPa)",
+            "Profa Dra Ana Irene (NEDETA/UEPa)",
           descricao:
             "Aplicativo desenvolvido para iOS e Android, que auxilia pessoas com deficiência física e/ou intelectual no processo da alfabetização, por meio do método fônico. A solução foi desenvolvida a partir de técnicas de gamificação e dotada de acessibilidade. Foi implementado um acionador baseado em bluetooth, que dispõe de tecnologia de integração nacional, economicamente acessível, através do qual o usuário pode se comunicar com o aplicativo por meio de tração, sopro, movimento da cabeça ou pressão.",
           professor: "Alessandra Natasha",
@@ -176,7 +176,7 @@ export default {
           tipo: "Sistemas"
         },
         {
-          imagem: require("~/assets/getalogot.png"),
+          imagem: require("~/assets/favicon.png"),
           nome: "Site do Instituto Filippo Smaldone",
           integrantes: "Antonio Amaury Magalhães e Lucas Kzan",
           solicitante: "Irmã Círia(Instituto Filippo Smaldone)",
@@ -197,7 +197,7 @@ export default {
           tipo: "Sistemas"
         },
         {
-          imagem: require("~/assets/getalogot.png"),
+          imagem: require("~/assets/favicon.png"),
           nome: "Braille Virtual",
           integrantes: "Luís Fernando",
           solicitante:

@@ -5,7 +5,9 @@
     <div class="introducao">
       <h1>GETA - Grupo de Estudo em Tecnologia do CESUPA</h1>
       <p>Somos um grupo focado na produção em estudos científicos e tecnologia para pessoas com algum tipo de deficiência</p>
-      <button>Conheça mais</button>
+      <nuxt-link to="about"> 
+        <button>Conheça mais</button>
+      </nuxt-link>
     </div>
     <div class="imagem-pcc">
       <img src="~/assets/galera.svg" alt="" srcset="">
