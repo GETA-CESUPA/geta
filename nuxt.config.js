@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Site do Grupo de Estudo em Tecnologia Assistiva' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/getalogot.png' },
+      { rel: 'icon', },
     ]
   },
 

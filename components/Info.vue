@@ -14,20 +14,6 @@
       <button>Saiba mais</button>
       </nuxt-link>
       <br />
-      <div class="container-icon">
-        <div>
-          <img src="~/assets/trophy.svg" alt srcset />
-          <h2>Missão</h2>
-        </div>
-        <div>
-          <img src="~/assets/targett.svg" alt srcset />
-          <h2>Objetivo</h2>
-        </div>
-        <div>
-          <img src="~/assets/value.svg" alt srcset />
-          <h2>Valores</h2>
-        </div>
-      </div>
     </div>
   </section>
 </template>
@@ -157,7 +143,7 @@ export default {
   align-items: flex-end;
   justify-content: space-between;
   margin-top: 3em;
-  flex-wrap: wrap;
+  flex-wrap: wrap
 }
 
 .container-icon div {
@@ -184,5 +170,7 @@ export default {
   .container-icon {
     justify-content: center;
   }
+
+
 }
 </style>

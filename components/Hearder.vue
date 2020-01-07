@@ -63,7 +63,7 @@ export default {
   margin: 0;
   width: 100%;
   height: 70px;
-  background: #598cff;
+  background: #ffffff;
   font-family: "Arial";
   border-bottom: 1px solid rgba(255, 255, 255, 0.288);
 }
@@ -97,12 +97,12 @@ export default {
 }
 
 .menu a {
-  background-color: #598cff;
+  background-color: #ffffff;
   padding: 15px;
   display: block;
   text-decoration: none;
   text-align: center;
-  color: #fff;
+  color: #26A69A;
 }
 
 .menu a:hover {

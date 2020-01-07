@@ -91,13 +91,15 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
-  height: 300px;
+  flex: 1;
+  min-width: 315px;
+  height: 280px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0;
+  /* margin: 0em 1em; */
 }
 
 .showImage1 {

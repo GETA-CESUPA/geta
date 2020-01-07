@@ -58,7 +58,7 @@ export default {
           tipo: "Sistemas"
         },
         {
-          imagem: "~/assets/getalogot.png",
+          imagem: require("~/assets/getalogot.png"),
           nome: "Ambiente Virtual de Aprendizagem",
           integrantes:
             "Amaury Magalhães, Luiz Ricardo, Otávio Araújo, Oscar Borges, Elielson Barbosa",
@@ -70,7 +70,7 @@ export default {
         },
 
         {
-          imagem: "~/assets/getalogot.png",
+          imagem: require("~/assets/getalogot.png"),
           nome: "DTM - Disfunção Temporomandibular",
           integrantes: "Matheus Botelho, Renan Figueiredo",
           solicitante: "Katiane (Clínica de Fisioterapia do CESUPA)",
@@ -80,6 +80,7 @@ export default {
           tipo: "Embarcados"
         },
         {
+          imagem: require("~/assets/getalogot.png"),
           nome: "Tracking de Marcha",
           integrantes:
             "Arthur Rocha, Eduardo Costa, Oscar Borges, David Cabral.",
@@ -90,6 +91,7 @@ export default {
           tipo: "Sistemas"
         },
         {
+          imagem: require("~/assets/getalogot.png"),
           nome: "Colete de Vibração",
           integrantes: "Paulo Amador, Larissa Negrão, Lucas Salame",
           solicitante: "Larissa Negrão (Clínica de Fisioterapia do CESUPA)",
@@ -99,6 +101,7 @@ export default {
           tipo: "Embarcados"
         },
         {
+          imagem: require("~/assets/getalogot.png"),
           nome: "Alzheimer VR",
           integrantes:
             "Larissa Negrão, Luiz Ricardo, Otávio Araújo, Oscar Borges, Pedro Lima, Luan Rodrigues.",
@@ -110,6 +113,7 @@ export default {
         },
 
         {
+          imagem: require("~/assets/getalogot.png"),
           nome: "ECG",
           integrantes: "Matthews Gonçalves",
           solicitante: "Roberto Júnior (UFPa)",
@@ -119,6 +123,7 @@ export default {
           tipo: "Embarcados"
         },
         {
+          imagem: require("~/assets/getalogot.png"),
           nome: "Web-App de Apoio Oncológico",
           integrantes:
             "Bruno De Masi, Danilo Castro, Luiz Ricardo, Lucas Freitas, Victor Telles, Gabriel Cortez",
@@ -129,6 +134,7 @@ export default {
           tipo: "Sistemas"
         },
         {
+          
           imagem: require("~/assets/qd.jpg"),
           nome: "Quarto dimensão",
           integrantes: "Matheus Henrique dos Santos",
@@ -170,6 +176,7 @@ export default {
           tipo: "Sistemas"
         },
         {
+          imagem: require("~/assets/getalogot.png"),
           nome: "Site do Instituto Filippo Smaldone",
           integrantes: "Antonio Amaury Magalhães e Lucas Kzan",
           solicitante: "Irmã Círia(Instituto Filippo Smaldone)",
@@ -190,6 +197,7 @@ export default {
           tipo: "Sistemas"
         },
         {
+          imagem: require("~/assets/getalogot.png"),
           nome: "Braille Virtual",
           integrantes: "Luís Fernando",
           solicitante:
@@ -282,6 +290,7 @@ export default {
   text-align: center;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container-select div {
@@ -292,6 +301,7 @@ export default {
   padding: 2px 4px;
   cursor: pointer;
   transition: background-color 200ms linear;
+      margin: 5px 8px;
 }
 
 .selecionado {
