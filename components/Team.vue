@@ -137,7 +137,7 @@
       </div>
         <div class="membro">
         <img src="~/assets/matthewsgoncalves.png" alt />
-        <p>Victor Telles</p>
+        <p>Matthew Gonçalves</p>
         <p>Engenharia de Computação</p>
         <a href="http://linkedin.com/in/matthews-gonçalves-b3b882119" target="_blank">
           <img src="~/assets/linkedin.svg" alt id="linkedin" />
@@ -175,7 +175,7 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: start
+  justify-content: flex-start
 }
 
 .membro {
