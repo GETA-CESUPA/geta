@@ -3,7 +3,7 @@
         <div class="container-footer">
         <div>
             <h1>Sobre o GETA</h1>
-            <p id="sobre">O grupo é registro no CNPQ na grande área de Tecnologias Socias</p>
+            <p id="sobre">O grupo é registrado no CNPQ na grande área de Tecnologias Socias</p>
         </div>
         <div>
             <h1>Navegação</h1>

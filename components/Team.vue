@@ -143,6 +143,14 @@
           <img src="~/assets/linkedin.svg" alt id="linkedin" />
         </a>
       </div>
+      <div class="membro">
+        <img src="~/assets/pauloamador.png" alt />
+        <p>Paulo Amador</p>
+        <p>Engenharia de Computação</p>
+        <a href="https://www.linkedin.com/in/paulo-amador-51067613b/" target="_blank">
+          <img src="~/assets/linkedin.svg" alt id="linkedin" />
+        </a>
+      </div>
     </div>
   </section>
 </template>
