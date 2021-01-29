@@ -4,8 +4,8 @@
     <div class="container-introdution">
     <div class="introducao">
       <h1>GETA - Grupo de Estudo em Tecnologia Assistiva do CESUPA</h1>
-      <p>Somos um grupo focado na produção em estudos científicos e tecnologia para pessoas com algum tipo de deficiência</p>
-      <nuxt-link to="about"> 
+      <p>Somos um grupo focado na produção de estudos científicos e tecnologia para pessoas com algum tipo de deficiência</p>
+      <nuxt-link to="about">
         <button>Conheça mais</button>
       </nuxt-link>
     </div>
@@ -116,7 +116,7 @@ export default {
   .introducao{
         padding: 1em 3em;
     padding-top: 6em;
-    
+
   }
 
   .introducao h1{
